@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Rental</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="./index.html" class="logo">Logo</a>
+                <div class="burger" id="burger">
+                    <span class="burger-line"></span>
+                    <span class="burger-line"></span>
+                    <span class="burger-line"></span>
+                </div>
+                <span class="overlay"></span>
+                <div class="menu" id="menu">
+                    <ul class="menu-inner">
+                        <li class="menu-item"><a href="index.html" class="menu-link">Home</a></li>
+                        <li class="menu-item"><a href="about.html" class="menu-link">About Us</a></li>
+                        <li class="menu-item"><a href="contact.html" class="menu-link">Contact</a></li>
+                        <li class="menu-item"><a href="rental.html" class="menu-link">Rental</a></li>
+                        <li class="menu-item"><a href="login.html" class="menu-link">Login</a></li>
+                     </ul>
+                </div>
+                <a href="./register.html" class="menu-block">Register</a>
+            </nav>
+        </div>
+    </header>
+
+ <div class="single_product">
+    <div class="single_top_container">
+        <div class="top_single_product">
+            <form class="top_form">
+                <div class="select_form">
+                    <label for="location">Choose Location</label>
+                    <select name="Location" id="location_select">
+                        <option value="volvo">Location 1</option>
+                        <option value="saab">Location 2</option>
+                        <option value="mercedes">Location 3</option>
+                        <option value="audi">Location 4</option>
+                      </select>
+                </div>
+               <div class="date_pickup">
+                <label for="date_picup">Choose date picup</label>
+                <input type="date" name="date_start" id="date_start">
+               </div>
+                 
+                 <div class="date_pickup">
+                    <label for="date_dropoff">Choose date dropoff</label>
+                    <input type="date" name="date_end" id="date_end">
+                 </div>
+                 <div class="date_dpickup">
+                   
+                    <input type="submit" name="rental_submit" id="date_end">
+                 </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="container">       
+        <div class="container_images">
+            <img id="rental_slider" class="rental_slider" src="" alt="car image">
+        </div>
+
+        <div class="container_side_info">
+            <h3>Mercedes-Benz AMG GT S</h3>
+            <div class="single_list">
+                <ul>
+                    <li>
+                        <span class="left">Price per day</span>
+                        <span class="right">80€</span>
+                    </li>
+                    <li>
+                        <span class="left">Number of doors</span>
+                        <span class="right">3</span>
+                    </li>
+                    <li>
+                        <span class="left">Number of doors</span>
+                        <span class="right">2</span>
+                    </li>
+                    <li>
+                        <span class="left">Fuel</span>
+                        <span class="right">Diesel</span>
+                    </li>
+                    <li>
+                        <span class="left">Year of production</span>
+                        <span class="right">2012</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+ </div>
+
+
+
+  <!-- FOOTER -->
+  <div class="footer">
+    <div class="container_footer">
+        <div class="logo_footer">
+            <h2>LOGO</h2>
+        </div>
+        <div class="footer_links">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Our Cars</a></li>
+            </ul>
+        </div>
+        <div class="social_media_footer">
+            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>

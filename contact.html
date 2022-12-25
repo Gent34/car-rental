@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Rental</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+
+ <header class="header">
+	<div class="container">
+		<nav class="navbar">
+			<a href="./index.html" class="logo">Logo</a>
+			<div class="burger" id="burger">
+				<span class="burger-line"></span>
+				<span class="burger-line"></span>
+				<span class="burger-line"></span>
+			</div>
+			<span class="overlay"></span>
+			<div class="menu" id="menu">
+                <ul class="menu-inner">
+                    <li class="menu-item"><a href="index.html" class="menu-link">Home</a></li>
+                    <li class="menu-item"><a href="about.html" class="menu-link">About Us</a></li>
+                    <li class="menu-item"><a href="contact.html" class="menu-link">Contact</a></li>
+                    <li class="menu-item"><a href="rental.html" class="menu-link">Rental</a></li>
+                    <li class="menu-item"><a href="login.html" class="menu-link">Login</a></li>
+                 </ul>
+			</div>
+			<a href="./register.html" class="menu-block">Register</a>
+		</nav>
+	</div>
+</header>
+
+    <div class="fist_section">
+        <div class="hero-image">
+            <div class="hero-text">
+              <h1>Contact Us</h1>
+            </div>
+          </div>
+    </div>
+
+    <div class="contact_page">
+        <div class="container">
+            <div class="location">
+                <div class="location_box">
+                    <div class="location_icon">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    </div>
+                    <div class="location_info">
+                        <a href="#">Kosova, Peje</a>
+                    </div>
+                </div>
+
+                <div class="location_box">
+                    <div class="location_icon">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                    </div>
+                    <div class="location_info">
+                       <a href="tel:+38344123456">+38344123456</a>
+                    </div>
+                </div>
+
+               <div class="location_box">
+                <div class="location_icon">
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                </div>
+                <div class="location_info">
+                    <a href="mailto:example@example.com">example@example.com</a>
+                </div>
+               </div>
+
+            </div>
+
+            <div class="contact_form_page">
+                <form name="form" onsubmit="return validateContactForm()" >
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your last name..">
+                
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                
+                    <input type="submit" value="Submit">
+                  </form>
+            </div>
+        </div>
+    </div>
+
+<!-- FOOTER -->
+<div class="footer">
+    <div class="container_footer">
+        <div class="logo_footer">
+            <h2>LOGO</h2>
+        </div>
+        <div class="footer_links">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Our Cars</a></li>
+            </ul>
+        </div>
+        <div class="social_media_footer">
+            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
